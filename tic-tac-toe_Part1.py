@@ -24,6 +24,7 @@ def markBoard(position, mark):
 
 
 # TODO: print the game board as described at the top of this code skeleton
+# If a box is unoccupied, then print the number of that box
 # Will not be tested in Part 1
 def printBoard():
     for k, v in board.items():
@@ -37,9 +38,9 @@ def printBoard():
 
 
 # TODO: check for wrong input, this function should return True or False.
-# True denoting that the user input is correct
-# you will need to check for wrong input (user is entering invalid position) or position is out of bound
-# another case is that the position is already occupied
+# Wrong Input (invalid position, not entering a position)
+# Out of bound position (smaller than 1, or larger than 9)
+# The position is already occupied
 def validateMove(position):
     position = str(position)
     if position.isdigit() == False:
@@ -52,7 +53,6 @@ def validateMove(position):
     return True
 
 # TODO: list out all the combinations of winning, you will neeed this
-# one of the winning combinations is already done for you
 winCombinations = [
     [1, 2, 3],
     [4, 5, 6],
