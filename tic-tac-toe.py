@@ -13,6 +13,7 @@ def markBoard(position, mark):
 
 
 # TODO: print the game board as described at the top of this code skeleton
+# If a box is unoccupied, then print the number of that box
 def printBoard():
     for k, v in board.items():
         if v == ' ':
@@ -23,7 +24,10 @@ def printBoard():
             print("---------")
 
 
-# TODO: check for wrong input, this function should return True or False.
+# TODO: vaidate for the following error, this function should return True or False.
+# Wrong Input (invalid position, not entering a position)
+# Out of bound position (smaller than 1, or larger than 9)
+# The position is already occupied
 def validateMove(position):
     position = str(position)
     if position.isdigit() == False:
@@ -101,6 +105,8 @@ def resetBoard():
 while True:
   gameEnded = False
   currentTurnPlayer = 'X'
+# loop will continue execute as long as the condition 'gameEnded' is 'False'
+# exit when 'gameEnded' becomes 'True'
   while not gameEnded:
       print("Please enter a number from 1-9.")
       move = input(currentTurnPlayer + "'s turn, input: ")
