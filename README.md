@@ -9,19 +9,19 @@ The name of the property represents the position of the box, while the value of 
 The project consists of 2 parts:
 
 ● Part 1: To build all the utility functions for this game including:
-
-○ markBoard
-
-○ printBoard
-
-○ validateMove
-
-○ checkWin
-
-○ checkFull, and
-
-○ A constant variable storing all the winning combination
-(winCombinations)
+        
+        ○ markBoard
+        
+        ○ printBoard
+        
+        ○ validateMove
+        
+        ○ checkWin
+        
+        ○ checkFull, and
+        
+        ○ A constant variable storing all the winning combination
+        (winCombinations)
         
 ● Part 2: To complete the game play using the utility functions built in Part 1. 
 
