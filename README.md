@@ -7,6 +7,7 @@ The name of the property represents the position of the box, while the value of 
 <img width="464" alt="Screenshot 2023-10-02 at 8 47 16 PM" src="https://github.com/Joannejean/Tic-Tac-Toe/assets/122374913/1cdaa6f0-e022-4014-81b7-9e51471b4030">
 
 The project consists of 2 parts:
+
 ● Part 1: To build all the utility functions for this game including:
 
         ○ markBoard
