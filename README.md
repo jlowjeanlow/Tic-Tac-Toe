@@ -26,4 +26,5 @@ The project consists of 2 parts:
 
 The game was built following the logic below.
 
+
 <img width="440" alt="Screenshot 2023-10-02 at 8 48 53 PM" src="https://github.com/Joannejean/Tic-Tac-Toe/assets/122374913/0f605a04-ca16-4767-9ffa-0a6b60fe9230">
